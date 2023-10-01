@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Sample place data (you can load this from a JSON file or an API)
-/*
+
 var places = [
     {
        name: 'Chaluny 1',
@@ -30,5 +30,5 @@ function displayPlaces() {
 }
 
 // Display places when the page loads
-// displayPlaces();
-*/
+displayPlaces();
+
