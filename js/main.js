@@ -9,12 +9,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 /*
 var places = [
     {
-       name: 'Place 1',
+       name: 'Chaluny 1',
        lat: 51.5,
        lng: -0.092,
     },
     {
-        name: 'Place 2',
+        name: 'Chaluny 2',
         lat: 51.7,
         lng: -0.098,
     },
