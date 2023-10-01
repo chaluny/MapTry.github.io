@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places Directory</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="lib/leaflet/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 </head>
 <body>
     <header>
@@ -13,11 +18,11 @@
     </header>
     <main>
         <div id="map"></div>
+        #map { height: 180px; }
         <div id="places-list">
             <!-- Places will be listed here -->
         </div>
     </main>
-    <script src="lib/leaflet/leaflet.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
