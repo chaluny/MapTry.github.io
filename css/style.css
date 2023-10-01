@@ -1,0 +1,62 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the main content area */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Style the map container */
+#map {
+    flex: 1;
+    height: 400px; /* Set an appropriate height for your map */
+}
+
+/* Style the places list */
+#places-list {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow-y: auto; /* Add a scrollbar if needed */
+}
+
+/* Style individual place items in the list */
+.place-item {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links or buttons (if applicable) */
+.button {
+    background-color: #0074d9;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Add hover effect to buttons */
+.button:hover {
+    background-color: #0056b3;
+}
