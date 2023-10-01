@@ -30,6 +30,10 @@ function displayPlaces() {
     places.forEach(function (place) {
         var marker = L.marker([place.lat, place.lng]).addTo(map);
         marker.bindPopup(place.name).openPopup();
+        var placeItem = document.createElement('div');
+        placeItem.classList.add('place-item');
+        placeItem.textContent = place.name;
+        placesList.appendChild(placeItem);
     });
 }
 
