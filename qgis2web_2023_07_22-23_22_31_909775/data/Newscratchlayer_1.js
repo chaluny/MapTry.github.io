@@ -1,1 +1,0 @@
-var json_Newscratchlayer_1 = {"type":"FeatureCollection","name":"Newscratchlayer_1","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{},"geometry":{"type":"Point","coordinates":[-0.164980902901205,51.479568363683448]}}]}
