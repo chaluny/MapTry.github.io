@@ -6,16 +6,17 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Sample place data (you can load this from a JSON file or an API)
+/*
 var places = [
     {
-       // name: 'Place 1',
-       // lat: 51.5,
-       // lng: -0.092,
+       name: 'Place 1',
+       lat: 51.5,
+       lng: -0.092,
     },
     {
-        // name: 'Place 2',
-        // lat: 51.7,
-        // lng: -0.098,
+        name: 'Place 2',
+        lat: 51.7,
+        lng: -0.098,
     },
     // Add more places here
 ];
@@ -30,3 +31,4 @@ function displayPlaces() {
 
 // Display places when the page loads
 // displayPlaces();
+*/
