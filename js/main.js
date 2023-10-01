@@ -7,6 +7,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Sample place data (you can load this from a JSON file or an API)
 
+var marker = L.marker([51.5, -0.09]).addTo(map);
+
 var places = [
     {
        name: 'Chaluny 1',
