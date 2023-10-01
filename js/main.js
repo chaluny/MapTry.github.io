@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Sample place data (you can load this from a JSON file or an API)
-var places = [
+/* var places = [
     {
         name: 'Place 1',
         lat: 51.5,
@@ -19,7 +19,7 @@ var places = [
     },
     // Add more places here
 ];
-
+*/
 // Function to display places on the map
 function displayPlaces() {
     places.forEach(function (place) {
