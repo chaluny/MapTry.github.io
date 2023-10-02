@@ -36,10 +36,7 @@ function displayPlaces() {
     
     places.forEach(function (place) {
         var marker = L.marker([place.lat, place.lng]).addTo(map);
-        var popup = L.popup()
-            .setContent("<b>", place.name, "</b><br>", place.desc, "<br>", place.price)
-            .openOn(map);
-        marker.bindPopup(popup).openPopup();
+        marker.bindPopup(place.name).openPopup();
         var placeItem = document.createElement('div');
         placeItem.classList.add('place-item');
         placeItem.textContent = place.name;
