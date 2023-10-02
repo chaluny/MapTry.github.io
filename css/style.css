@@ -32,6 +32,13 @@ main {
     color: #333;
 }
 
+#box {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
 /* Style the places list */
 #places-list {
     flex: 1;
