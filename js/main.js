@@ -14,11 +14,15 @@ var places = [
        name: 'Chaluny 1',
        lat: 51.5,
        lng: -0.092,
+       desc: "Nice Chinese restaurant", 
+       price: "£££",
     },
     {
         name: 'Chaluny 2',
         lat: 51.7,
         lng: -0.098,
+        desc: "Great Indian restaurant",
+        price: "£",
     },
     // Add more places here
 ];
@@ -30,7 +34,7 @@ function displayPlaces() {
     
     places.forEach(function (place) {
         var marker = L.marker([place.lat, place.lng]).addTo(map);
-        marker.bindPopup(place.name).openPopup();
+        marker.bindPopup("<b>"place.name&"</b><br>"&place.desc&"<br>"&place.price).openPopup();
         var placeItem = document.createElement('div');
         placeItem.classList.add('place-item');
         placeItem.textContent = place.name;
