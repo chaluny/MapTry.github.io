@@ -38,7 +38,6 @@ function displayPlaces() {
         var marker = L.marker([place.lat, place.lng]).addTo(map);
         var popup = L.popup()
             .setContent("<b>", place.name, "</b><br>", place.desc, "<br>", place.price)
-            .setLatLng(place.lat,place.lng)
             .openOn(map);
         marker.bindPopup(popup).openPopup();
         var placeItem = document.createElement('div');
