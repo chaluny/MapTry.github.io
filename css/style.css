@@ -25,6 +25,13 @@ main {
     height: 400px; /* Set an appropriate height for your map */
 }
 
+#qgis {
+    text-align: left;
+    margin-top: 20px; /* Adjust spacing as needed */
+    font-size: 12px;
+    color: #333;
+}
+
 /* Style the places list */
 #places-list {
     flex: 1;
