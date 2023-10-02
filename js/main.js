@@ -23,12 +23,11 @@ var places = [
     // Add more places here
 ];
 
-var marker = L.marker([51.5, -0.09]).addTo(map);
-
 // Function to display places on the map
 function displayPlaces() {
     var placesList = document.getElementById('places-list');
     placesList.innerHTML = ''; // Clear previous content
+    
     places.forEach(function (place) {
         var marker = L.marker([place.lat, place.lng]).addTo(map);
         marker.bindPopup(place.name).openPopup();
