@@ -11,14 +11,14 @@ var marker = L.marker([51.5, -0.09]).addTo(map);
 
 var places = [
     {
-       name: 'Chaluny 1',
+       name: 'Place 1',
        lat: 51.5,
        lng: -0.092,
        desc: "Nice Chinese restaurant", 
        price: "£££",
     },
     {
-        name: 'Chaluny 2',
+        name: 'Place 2',
         lat: 51.7,
         lng: -0.098,
         desc: "Great Indian restaurant",
