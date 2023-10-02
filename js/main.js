@@ -27,6 +27,8 @@ var places = [
     // Add more places here
 ];
 
+var marker = L.marker([51.5, -0.09]).addTo(map);
+
 // Function to display places on the map
 function displayPlaces() {
     var placesList = document.getElementById('places-list');
